@@ -18,6 +18,9 @@ body{
 .logo span{
     color: var(--IRIS);
 }
+.logo:hover{
+    color: goldenrod;
+}
 .nav-list, .nav-contacts{
     list-style-type: none;
     margin: 0;
@@ -33,6 +36,9 @@ body{
     margin: 0;
     padding: 0;
     color: var(--NAVY-BLUE);
+}
+.nav-link:hover{
+    color: goldenrod;
 }
 h4{
     margin: 0;
@@ -50,6 +56,9 @@ h1{
 .order-button {
     color: var(--WHITE);
     background-color: var(--IRIS);
+}
+.order-button:hover{
+    background-color: goldenrod;
 }
 
 .benefit-text {
